@@ -1,0 +1,24 @@
+section {
+    margin-left: 50px;
+    font-size: 30px;
+    display: inline-block;
+    width: 90%;
+}
+
+/* span {
+    display: sticky;
+    top: 0px;
+} */
+
+h3 {
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+p::before {
+    /* 0020 to add space */
+    content: "\1F4DE \0020";
+}
