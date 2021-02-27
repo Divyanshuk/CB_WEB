@@ -1,0 +1,10 @@
+CSS Units
+
+1. Absolute -> like px, cm, inch etc.
+
+2. Relative -> %, em, vh, vw etc.
+
+
+---->>>Relative<<<----
+
+1. percentage % ----->

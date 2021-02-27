@@ -1,0 +1,9 @@
+Properties of Display
+
+1. Inline :- height and width won't work but padding and margin will work
+
+2. Block :- height,width, padding,margin will work
+
+3. inline-Block :- inline and height and width will also work
+
+4. None

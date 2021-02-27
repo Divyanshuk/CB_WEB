@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning About Inputs</h1>
+
+    UserName:
+    <input type="text" placeholder="Enter Your UserName">
+    
+    <br>
+
+    Password: 
+    <input type="password" placeholder="Enter pass">
+
+    <br>
+    Email:       
+    <input type="email" placeholder="Enter Your Email">
+
+    <br>
+    date:       
+    <input type="date">
+
+    <br>
+    Time:       
+    <input type="time">
+
+    <br>
+    Colour:       
+    <input type="color">
+
+    <br>
+    Telephone:
+    <input type="tel" maxlength="10">
+
+    <br>
+    File:       
+    <input type="file">
+
+    <br>
+    Number:       
+    <input type="number">
+
+    <br><br><br>
+    <hr>
+
+    <textarea cols="30" rows="10">Default Text. Enter your text here</textarea>
+
+    <br>
+    <br>
+    <hr>
+    <b>Gender:</b>  
+    <br>     
+    <!-- Radio type corresponding to same question should have same name other wise multiple options could be selected -->
+    Female
+    <input type="radio" name="gender">
+    Male
+    <input type="radio" name="gender">
+    Other
+    <input type="radio" name="gender">
+
+    <br>
+    <hr>
+    <br>
+
+    I Agree:
+    <input type="checkbox">
+    <br>
+    <br><hr><br>
+
+    <!-- dropdowns -->
+
+    DropDowns:
+    <select name="" id="">
+        
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+
+    </select>
+
+    <br><br><hr><br>
+
+    <!-- If we want to connect the radio button with the coresponding text option. So that if your even select the text it will select the corresponding radio button-->
+
+    To connect the radio button with the corresponding text option. So that if your even select the text it will select the corresponding radio button
+    <br>
+    <b>Gender:</b>  
+    <br>     
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other">
+
+    <!-- Similaryly Label can be created for all input types. -->
+
+    <br><br>
+    Similaryly Label can be created for all input types.
+    
+    <br><br>
+    <hr>
+    <br>
+
+    <input type="submit">
+    <br><br>
+    <input type="submit" disabled>
+
+
+
+</body>
+</html>

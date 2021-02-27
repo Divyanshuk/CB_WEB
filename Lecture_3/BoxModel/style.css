@@ -1,0 +1,16 @@
+p {
+
+    /* Dimensions */
+
+    width: 300px;
+
+    /* Border */
+    border: 2px solid black;
+
+    /* Margin - see basics.txt */
+    margin: 60px auto;
+
+    /* Padding */
+
+    padding: 50px;
+}

@@ -1,0 +1,49 @@
+div {
+    border: 2px solid black;
+    background-color: cyan;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+ #static #middle1{
+
+    position:static;
+    top: 200px;
+    left: 100px;
+
+ }
+
+ #relative #middle2{
+
+    position:relative;
+    top: 30px;
+    left: 50px;
+ }
+
+ #absolute #middle3{
+
+    position:absolute;
+    top: 750px;
+    left: 300px;
+ }
+
+ #fixed #middle4{
+
+    position:fixed;
+    top: 600px;
+    left: 700px;
+ }
+
+ #sticky #middle5{
+
+    position:sticky;
+    top: 10px;
+    bottom: 10px;
+ }
+/* I made section inline so that sticky postion can work */
+/* sticky offset is relative to the nearest block level anchestor*/
+/* better see the working */
+ section {
+    display: inline;
+ }

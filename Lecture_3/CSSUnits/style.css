@@ -1,0 +1,43 @@
+#wrapper{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+div {
+
+    border: 2px solid green;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+
+article:first-of-type {
+    font-size: 100px;
+}
+
+article:first-of-type ul{
+    font-size: 50%;
+    /* 50% of parent font size */
+}
+
+article {
+    font-size: 10px;
+}
+
+article ul {
+    font-size: 1.5em;
+    /* 1.5 em means 1.5x of parent */
+
+    /* font-size: 2rem; */
+    /* this font-size = 2 times the root element font-size that is html font size */
+}
+
+#special {
+    background-color: skyblue;
+    border: 2px solid black;
+    width: 60vw;
+    /* 60% of view width */
+    height: 40vh;
+}

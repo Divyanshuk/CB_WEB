@@ -1,0 +1,41 @@
+CSS ------> works at presentation layer and also known as skin to HTML
+
+To add CSS into HTML, there are 3 ways -----> Inline ----> using style attribute "propertyName:PropertyValue"
+                                        ----> Internal ---> style tag in head , using selectors
+                                        ----> External ----> style.css , also using selectors
+
+
+Basic Selectors in CSS ----> Element Selector
+                 ----> Universal Selector
+                 ----> ID selector
+                 ----> Class selector
+                 ----> Attribute Selector
+
+Combinators are also Selectors
+
+Combinators in CSS ----> Descendent
+                   ----> Child
+                   ----> Adjacent
+                   ----> General Sibling
+
+
+PseudoClasses as Selectors
+
+Priority of ID > Class > Element , when applying styling
+
+check out specificity.keegan.st to check priority
+
+Inline CSS priority > Internal CSS > External CSS
+
+
+
+Color is represented in 24-bit format
+where first 8 bits are of RED, next 8 is of GREEN, next 8 is of BLUE
+
+so 256 * 256 * 256 = 16 million colours
+
+color formats -> Hexadecimal    example: #12fe34
+              -> rgb()          example: rgb(234, 1, 197) // parameter varies from 0 to 255
+              -> rgba()         here extra a parameter is for opacity // value vary from 0 to 1
+
+coolers.co to select colours

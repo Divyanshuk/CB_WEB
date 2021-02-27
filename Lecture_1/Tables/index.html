@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <!-- border attribute: If you don't mention border then table lines will not appear -->
+    <!-- cellspacing: to add margin in each cell -->
+    <!-- cellpadding: to add pading in each cell -->
+    <!-- better to not use these attributes, better do this in CSS -->
+    <table border="5" cellspacing="10" cellpadding="10">
+        <thead>
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>maths</td>
+                <td rowspan="3">science</td>
+                <td>chemistry</td>
+                <td>physics</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <!-- <td>science</td> -->
+                <td>chemistry</td>
+                <td>sanskrit</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <!-- <td>science</td> -->
+                <td>hindi</td>
+                <td>physics</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>science</td>
+                <td colspan="2">physics</td>
+                <!-- <td>physics</td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

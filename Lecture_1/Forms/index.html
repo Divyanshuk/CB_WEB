@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <br><br>
+    <b>using POST method</b> <br><br>
+    <!-- in POST url do not change or does not show form information -->
+    <!-- but it is still visible in inspect element in NETWORK tab -> select the file name -> select headers tab and scroll down -->
+    <form action="" method="POST">
+        <!-- action attribute sends the form data to a particular URL -->
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" name="user">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="pass">
+
+        <input type="submit">
+
+    </form>
+
+    <br><br><hr><br><br>
+
+    <b>Using GET method</b> <br><br>
+
+    <!-- in GET url shows the form information -->
+    <form action="" method="GET">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" name="user">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="pass">
+
+        <input type="submit">
+
+    </form>
+
+    <br><br>
+
+    <hr>
+    <br><br>
+
+    <b>Using GET method with action parameter to http://google.com</b> <br><br>
+
+    <form action="http://google.com" method="GET">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username" name="user">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="pass">
+
+        <input type="submit">
+
+    </form>
+
+    <br><br><hr><br><br>
+
+    <b>Styling a bit</b>
+
+    <br><br>
+
+    <form action="http://google.com" method="GET">
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" name="user" required>
+            *
+            
+            <br><br>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" name="pass" required>
+            *
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Educational Info</legend>
+
+            <label for="marksheet">Marksheet</label>
+            <input type="file">
+        </fieldset>
+
+        <br>
+        * : required
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+To change Layout 
+
+1. display
+2. postion --> static , relative, absolute, sticky
+
+
+---->>POSITON<<----
+
+1. static:- it is by default; top, left, right, bottom property do not work
+
+2. relative:- top, left, etc property work with respect to the parent element
+
+3. absolute:- top, left, etc property work with respect to the closest positioned achestor otherwise it is positioned to the initial containing block, also it gets removed from normal document flow
+                .The closest anchestor position should be relative or absolute for it to take effect according to its anchestor.
+
+4. fixed:- positioned relative to viewport and scrolling does not affect its position, also it gets removed from normal document flow
+
+5. sticky:- The element is positioned according to the normal flow of the document, and then offset relative to its nearest block level element

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+</head>
+<body>
+    <h1>Media Elements</h1>
+
+    <!-- IMAGE,AUDIO, VIDEO, IFRAME ARE INLINE ELEMENT -->
+
+    <img src="./Media/peacock.jpg" alt="" width="400">
+
+    <img src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" width="600">
+
+    <!-- The alt attribute holds a text description of the image, which isn't mandatory but is incredibly useful for accessibility  -->
+    <!-- Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or linkrot -->
+
+    <br><br><hr><br><br>
+
+    <!-- EXAMPLE -->
+
+    <b>Using "alt" attribute with invalid file address</b><br><br>
+
+    <img src="./Media/peacoasdck.jpg" alt="This is an image of peacock" width="400">
+
+    <br><br><br><hr><br>
+
+    <b>Using "alt" attribute with valid file address</b><br><br>
+
+    <img src="./Media/peacock.jpg" alt="This is also peacock Image" width="300">
+
+    <br><br><hr><br>
+
+    <b>Adding audio file</b><br><br>
+    <!-- You have to mention controls otherwise audio wont be visible UNLESS you have marked it as autoplay or controll from backend program-->
+    <audio src="./Media/music.mp3" controls></audio>
+
+    <br>
+    <!-- this will autoplay and will loop with controls available -->
+    <!-- <audio src="./Media/music.mp3" controls autoplay loop></audio> -->
+
+    <br><br><hr><br>
+
+    <b>Adding Video</b>
+
+    <br><br>
+
+    <video src="./Media/earthvideo.mp4" controls></video>
+
+    <br><br><hr><br>
+
+    <b>Adding iFrame</b>
+    <br><br>
+    <!-- scrolling feature is available in IFRAME by default -->
+    <iframe src="./page.html" frameborder="2" width="400" height="500"></iframe>
+    <!-- some sites refuses to connect -->
+    <iframe src="https://unsplash.com/" frameborder="2" width="400" height="500"></iframe>
+    <!-- <iframe src="https://codingblocks.com/" frameborder="2" width="400" height="500"></iframe> -->
+
+    <!-- embedding youtube -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qLCLvzTGFVM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+</body>
+</html>
