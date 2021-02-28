@@ -1,17 +1,25 @@
 section {
-    margin-left: 50px;
     font-size: 30px;
     display: inline-block;
-    width: 90%;
+    width: 100%;
+    font-family: sans-serif;
+
 }
 
-/* span {
-    display: sticky;
-    top: 0px;
-} */
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #454594;
+    font-family: sans-serif;
+    }
+
+body {
+    margin: 0px;
+}
+
 
 h3 {
-    background-color: gray;
+    background-color: #454594;
     color: white;
     padding-left: 10px;
     position: sticky;
@@ -21,4 +29,13 @@ h3 {
 p::before {
     /* 0020 to add space */
     content: "\1F4DE \0020";
+}
+
+p:hover{
+    background-color: rgb(58, 173, 58);
+}
+
+p {
+    margin-left: 60px;
+    margin-right: 60px;
 }
