@@ -1,0 +1,30 @@
+li {
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul:nth-of-type(1) {
+    list-style-type: circle;
+}
+ul:nth-of-type(2) {
+    list-style-type: "\1F34D";
+}
+ul:nth-of-type(3) {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+ul:nth-of-type(4) {
+    /* To add bullets inside the list box, not outside the list box */
+    list-style-position: inside;
+}
+ul:nth-of-type(5) {
+    list-style-type: none;
+}
+ul:nth-of-type(6) {
+    /* all in one */
+    list-style: "\1F34D" inside;
+}

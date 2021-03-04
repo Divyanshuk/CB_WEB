@@ -1,0 +1,65 @@
+article {
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    /* If Times New Roman is not available then Times will be applied then if it is also not available then serif */
+    /* font family with spaces are written in quotes */
+    font-family: 'Times New Roman', Times, serif;
+    /* to add font-style */
+    font-style: italic;
+    /* font weight varies from 100 to 900, if you write "bolder" that means font-weight = current font weight + 100 */
+    font-weight: 700;
+}
+
+article:nth-of-type(2) {
+
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    /* font added through google fonts */
+    font-family: 'Roboto Mono', monospace;
+}
+
+article:nth-of-type(3) {
+
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    /* everything in one */
+    font: italic small-caps 200 2em sans-serif;
+}
+
+article:nth-of-type(4) {
+
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    /* text-shadow: x-offset y-offset blur-radius color*/
+    /* offset can be negative, and blurness increases as the blur radius increases */
+    text-shadow: 8px 10px 1px red;
+}
+
+article:nth-of-type(5) {
+
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    /* many shadows can be written with comma*/
+    text-shadow: 8px 10px 1px red, 3px 5px 1px blue;
+}
+
+article:last-of-type {
+
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 1rem;
+    /* To add space between letters */
+    letter-spacing: 1em;
+}

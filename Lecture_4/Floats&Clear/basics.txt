@@ -1,0 +1,8 @@
+difference between layout and normal flow
+
+Layout :- Positioning of elements in page, and if viewport/page dimensions changes, 
+          the layout adjusts itself is called responsive layout
+
+          we use display, positions, flex-boxes, grids, float, clear etc attributes are used
+
+Normal-Flow :- it means the way elements lay themselves out if we have not changed their layout and we can alter this

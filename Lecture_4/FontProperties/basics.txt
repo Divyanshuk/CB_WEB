@@ -1,0 +1,25 @@
+Font-Properties 
+
+1) Font-Family
+2) Font-Size
+3) Font-Style
+4) Font-Weight
+5) etc
+
+
+---->>>Font Family<<<-----
+
+Serif is a font which is available in almost every device whether it is old or new
+
+font-family: 'Times New Roman', Times, serif;
+
+here if Times New Roman is not available then Times font is applied and if this is also not available in machine then serif is applied
+
+
+---->>>Font: <<<------
+
+Go to https://developer.mozilla.org/en-US/docs/Web/CSS/font#live_sample
+
+----->>>To style 3d text <<<--------
+
+Go to https://markdotto.com/playground/3d-text/

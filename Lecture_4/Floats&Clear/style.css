@@ -1,0 +1,16 @@
+article {
+    width: 80%;
+    border: 1px solid lightcoral;
+    margin: 30px auto;
+}
+
+article img {
+    width: 500px;
+    /* floating to the left, better see mdn */
+    float: left;
+}
+
+.para {
+    /* better see mdn */
+    clear: left;
+}
