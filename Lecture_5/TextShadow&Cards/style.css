@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #118ab2;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    nav,nav ul {
+        /* flex direction when changed to column , it changes cross axis to main axis and vice versa */
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#main-img {
+    height: 60vh;
+    width: 100vw;
+    border: 1px solid #ccc;
+    background-color: cyan;
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-origin: center;
+}
+
+.cards {
+    width: 90vw;
+    /* border: 1px solid gray; */
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article figure {
+    width: 300px;
+    height: 300px;
+}
+
+article figure img {
+    width: 100%;
+    height: 65%;
+}
+
+figure {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+article h3{
+    font-size: 1.8rem;
+    color: #073b4c;
+}
+article p {
+    font-size: 1.4rem;
+}
+
+article button {
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+article {
+    transition: all 180ms ease;
+    margin: 5px;
+    box-shadow: 0px 2px 3px gray;
+}
+
+article:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
