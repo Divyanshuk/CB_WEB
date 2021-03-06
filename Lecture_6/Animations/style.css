@@ -1,0 +1,89 @@
+/* Transition is going from one state to another */
+/* Animation is going from one state to another including intermediate states also */
+
+/* for first div */
+
+div:first-of-type {
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: palevioletred;
+    vertical-align: top;
+    /* Animation */
+    animation-name: swing1;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    /* animation will start after 2sec */
+    animation-delay: 2s;
+    /* retain the end point of animation */
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+    animation-direction: alternate;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+}
+
+@keyframes swing1 {
+    from {
+        height: 30px;
+    }
+    to {
+        height: 700px;
+    }
+} 
+
+/* for 2nd div */
+
+div:nth-of-type(2) {
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: palevioletred;
+    vertical-align: top;
+    /* Animation */
+    animation-name: swing2;
+    animation-duration: 3s;
+    animation-iteration-count: 6;
+    /* animation will start after 2sec */
+    animation-delay: 2s;
+    /* retain the end point of animation */
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+    animation-direction: alternate;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+}
+
+@keyframes swing2 {
+    0% {
+        background-color: lightgreen;
+    }
+
+    25% {
+        height: 100px;
+        width: 350px;
+        background-color: aqua;
+    }
+
+    50% {
+        height: 150px;
+        width: 600px;
+        background-color: palevioletred;
+    }
+
+    75% {
+        height: 50px;
+        width: 300px;
+        background-color: blue;
+    }
+
+    100% {
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+    }
+}
