@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- We have to add our own stylesheet after the bootstrap stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <br><br>
+    
+
+    <section class="container">
+        <h1 class="display-2">This is a Heading</h1>
+
+        <!-- we encapsulated in row, to reduce the width -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+        </div>
+
+        
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit unde veritatis repellat expedita inventore nobis tenetur fuga commodi soluta. Nam quo sint modi nulla nemo est tenetur eos atque.
+        Quod sapiente, explicabo a enim aliquid corrupti repudiandae minus accusantium asperiores nesciunt eaque quibusdam veritatis nam architecto ab eius beatae dolores accusamus veniam nemo ullam? Ducimus nisi nemo consectetur possimus?
+        Asperiores earum ad laboriosam iste consequuntur omnis optio, odit blanditiis veritatis repudiandae illum natus itaque rerum, vel rem nam facere ut numquam. Illo ipsum sequi ea! Amet tempore ipsam excepturi?
+        Reprehenderit, fugit odio minus sint eligendi, qui facere cumque quidem temporibus facilis a eum neque voluptatum rem, nihil iure. Ut facilis exercitationem quas. Tempore ullam, libero iste sapiente modi repudiandae?
+        Sed aliquid, eum nobis voluptate vel, nostrum laudantium asperiores itaque eos quasi fuga culpa obcaecati reprehenderit laboriosam facilis consequuntur. Quam ducimus natus unde inventore dicta similique at? Expedita, molestiae magnam?</p>
+    </section>
+
+    <br>
+
+    <!-- container-fluid is same as normal container -->
+    <section class="container-fluid">
+        <h1>This is a Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit unde veritatis repellat expedita inventore nobis tenetur fuga commodi soluta. Nam quo sint modi nulla nemo est tenetur eos atque.
+        Quod sapiente, explicabo a enim aliquid corrupti repudiandae minus accusantium asperiores nesciunt eaque quibusdam veritatis nam architecto ab eius beatae dolores accusamus veniam nemo ullam? Ducimus nisi nemo consectetur possimus?
+        Asperiores earum ad laboriosam iste consequuntur omnis optio, odit blanditiis veritatis repudiandae illum natus itaque rerum, vel rem nam facere ut numquam. Illo ipsum sequi ea! Amet tempore ipsam excepturi?
+        Reprehenderit, fugit odio minus sint eligendi, qui facere cumque quidem temporibus facilis a eum neque voluptatum rem, nihil iure. Ut facilis exercitationem quas. Tempore ullam, libero iste sapiente modi repudiandae?
+        Sed aliquid, eum nobis voluptate vel, nostrum laudantium asperiores itaque eos quasi fuga culpa obcaecati reprehenderit laboriosam facilis consequuntur. Quam ducimus natus unde inventore dicta similique at? Expedita, molestiae magnam?</p>
+    </section>
+
+    <br>
+    <!-- You can see a border at image -->
+    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1599822990021-7be7e170d4d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">
+    <img class="float-end img-thumbnail" src="https://images.unsplash.com/photo-1599822990021-7be7e170d4d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">
+
+    <br>
+
+    <section id="grid">
+        <!-- We assume that there are 12 units in a row, and we divide on that basis -->
+        <div class="row">
+            <!-- lg means large, md means medium -->
+            <div class="col-lg-3 col-md-6"></div>
+            <div class="col-lg-3 col-md-6"></div>
+            <div class="col-lg-3 col-md-6"></div>
+            <div class="col-lg-3 col-md-6"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-md-6 col-sm-12"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
+
+        </div>
+
+    </section>
+
+    <br><br>
+
+    <section>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRodW1ibmFpbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRodW1ibmFpbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRodW1ibmFpbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+            <div class="col-lg-3 col-md-6"><div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRodW1ibmFpbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div></div>
+        </div>
+
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>

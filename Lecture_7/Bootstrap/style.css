@@ -1,0 +1,15 @@
+
+#grid .row div{
+
+    height: 30px;
+    border: 1px solid black;
+    background-color: palevioletred;
+}
+
+img{
+    width: 400px;
+}
+
+nav {
+    background-color: rgb(9, 55, 156);
+}
