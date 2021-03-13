@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/b79308b5dc.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Divyanshu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#aboutme">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#technicalskills">Technical Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#languages">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects" tabindex="-1" aria-disabled="true">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div id="main-intro">
+        <section>
+            <img src="./assets/portfolioimg.png">
+            <p class="text-center fs-4">my name is</p>
+            <h1 class="text-center">Divyanshu Kumar</h1>
+            <p class="text-center fs-4">I develop simple & cool websites</p>
+        </section>
+        
+    </div>
+
+    <main>
+        <div class="card" style="background-color: #14213d; color: white; padding: 0px 20px;">
+            <div class="card-body">
+              <h2 id="aboutme" class="card-title">About Me</h2>
+              <br>
+              <p class="card-text">I have done my B.Tech from Bhagwan Parshuram Institute of technology in Information Technology. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
+              <p class="card-text">I will help you in developing a stunning and simple looking UI/UX based website.</p>
+
+              <section id="button-section">
+                  <button type="button" class="btn btn-light" style="margin: 10px 0px;">Download CV</button>
+                  <div>
+                      <a href=""><i class="fab fa-github"></i></a>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                  </div>
+              </section>
+
+              <br><br>
+              <h2 id="technicalskills" class="card-title">Technical Skills</h2>
+              <br>
+              
+             <div id="skill-set"> 
+                 <div>
+                     <p class="card-text">Operating System</p>
+                     <div class="progress" style="width: 50vw;">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                 </div>
+                 <div>
+                     <p class="card-text">Computer Networks</p>
+                     <div class="progress" style="width: 50vw;">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                 </div>
+                 <div>
+                     <p class="card-text">DS & Algo</p>
+                     <div class="progress" style="width: 50vw;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                 </div>
+                 <div>
+                     <p class="card-text">Theory Of Computation</p>
+                     <div class="progress" style="width: 50vw;">
+                        <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                 </div>
+            </div>
+
+            <br><br>
+
+            <h2 id="languages" class="card-title">Languages That I Know</h2>
+              <br>
+
+              <ul>
+                  <li>C++</li>
+                  <li>Java</li>
+                  <li>Java Script</li>
+                  <li>Kotlin</li>
+              </ul>
+
+              <br><br>
+
+            <h2 id="projects" class="card-title">Projects That I Have Done</h2>
+            <br>
+
+            <div id="projectsshowcase" class="row row-cols-1 row-cols-md-3 g-4" style="color: black;">
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Attendance Application</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Pill Management Mobile App</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Line Following Bot</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">This Website</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Attendance Application</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Pill Management Mobile App</h5>
+                      <p class="card-text">This is a short card.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">Line Following Bot</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title">This Website</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+</html>

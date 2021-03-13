@@ -1,0 +1,85 @@
+/* Main Page */
+
+#main-intro {
+
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-intro img{
+    width: 35vh;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+#main-intro h1 {
+    color: #264653;
+}
+#main-intro p {
+    margin-bottom: 0px;
+}
+
+/* About Me */
+
+main {
+    width: 100vw;
+    padding: 10px;
+}
+
+main #button-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main #button-section div {
+    margin: 10px 10px;
+}
+
+main i {
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+}
+
+/* skillset */
+
+#skill-set {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#skill-set>div {
+    margin: 20px 20px;
+}
+
+/* Projects */
+
+#projectsshowcase div,h5,p{
+
+    cursor: pointer;
+
+}
+
+
+
+
